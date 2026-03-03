@@ -92,6 +92,41 @@ body{
   border-color: rgba(255,255,255,.35);
 }
 
+.lang-btn {
+  display: block;
+  padding: 16px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  margin: px 0;
+
+  background: white;
+  color: #333;
+  border: 1px solid #eee;
+
+  transition: all 0.25s ease;
+}
+
+/* 마우스 올렸을 때 */
+.lang-btn:hover {
+  background: linear-gradient(90deg, #ff5c8a, #2d5fff);
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* 클릭했을 때 */
+.lang-btn:active {
+  transform: scale(0.96);
+}
+
+/* 선택된 느낌 (옵션) */
+.lang-btn.selected {
+  background: linear-gradient(90deg, #ff5c8a, #2d5fff);
+  color: white;
+}
+
 .micro{
   text-align:center;
   margin:14px 0 0;
