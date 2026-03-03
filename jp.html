@@ -1,53 +1,74 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HARU - Japanese</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SARANG | 日本語</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+<body class="bg">
 
-<body>
-<header class="top-bar">
-  <a href="index.html" class="back-btn">
-    <span class="arrow">←</span>
-    <span>戻る</span>
-  </a>
-</header>
+  <header class="topbar">
+    <a class="back" href="index.html" aria-label="戻る">
+      <span class="backIcon">←</span><span>言語選択</span>
+    </a>
+  </header>
 
-<section class="hero">
-  <h1>HARU Fukuoka Official</h1>
-  <p>日韓をつなぐ定期オフライン交流コミュニティ</p>
-</section>
+  <main class="shell">
+    <section class="profile">
+      <div class="avatar">
+        <img src="sarang.png" alt="SARANG Logo">
+      </div>
 
-<section>
-  <h2>About HARU</h2>
-  <p>
-    HARUは日韓交流を目的とした定期開催のオフラインコミュニティです。
-    言語交換や文化交流を通して自然な出会いを作ります。
-  </p>
-</section>
+      <h1 class="title">SARANG（サラン）</h1>
+      <p class="bio">
+        日本と韓国をつなぐ、新しいオフラインマッチングイベント。<br/>
+        参加希望はInstagramのDMまで。
+      </p>
+      <p class="micro">
+        「福岡で開催される日韓オフライン紹介イベント」等の案内投稿あり :contentReference[oaicite:4]{index=4}
+      </p>
+    </section>
 
-<section>
-  <h2>活動内容</h2>
-  <p>
-    定期交流会、文化体験イベント、ネットワーキングなどを開催しています。
-    福岡だけでなく様々な地域で開催予定です。
-  </p>
-</section>
+    <section class="links">
+      <!-- 🔧 下のリンクは実際のリンクに差し替えてOK -->
+      <a class="btn primary" href="https://www.instagram.com/sarang.matching.kr/" target="_blank" rel="noopener">
+        📩 Instagram（DM）
+      </a>
 
-<section>
-  <h2>Follow HARU</h2>
-  <p>最新情報はInstagramをご確認ください。</p>
-  <button onclick="window.location.href='https://www.instagram.com/haru.fukuoka.official/'">
-    Instagram
-  </button>
-</section>
+      <a class="btn" href="https://yunchanyoung.github.io/Haru/" target="_blank" rel="noopener">
+        🌐 HARU（日韓交流会）サイト
+      </a>
 
-<footer>
-  © 2026 HARU Official
-</footer>
+      <a class="btn" href="#" target="_blank" rel="noopener">
+        🗓️ 次回日程・申込（追加予定）
+      </a>
+
+      <a class="btn" href="#" target="_blank" rel="noopener">
+        📝 参加フォーム（Google Form）
+      </a>
+
+      <a class="btn" href="#" target="_blank" rel="noopener">
+        📍 開催エリア・会場案内
+      </a>
+
+      <a class="btn" href="#" target="_blank" rel="noopener">
+        ✅ FAQ / ご利用案内
+      </a>
+    </section>
+
+    <section class="notice">
+      <h2 class="h2">ご案内</h2>
+      <ul class="list">
+        <li>最新情報はInstagramの投稿/DMでご案内します。 :contentReference[oaicite:5]{index=5}</li>
+        <li>一部投稿で福岡開催の案内があります。 :contentReference[oaicite:6]{index=6}</li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>© SARANG. All rights reserved.</p>
+    </footer>
+  </main>
 
 </body>
-
 </html>
